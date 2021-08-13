@@ -20,26 +20,42 @@
         <h2>Search for a city</h2>
         <form id="cityForm">
             <input type="text" id="cityNameInput" placeholder="Enter the name of a city" />
+            <h1 id="cityName">Name of the city</h1>
+            <h2 id="date"></h2>
+              <div><b>Temperature: </b><span id="currentTemperature"></span> &#176;F</div>
+              <div><b>Humidity:</b> <span id="currentHumidity"></span> %</div>
+              <div><b>Wind Speed:</b> <span id="currentWindSpeed"></span> MPH</div>
+              <div><b>UVI Index:</b> <span id="currentUvi"></span> </div>
         </form>
       </aside>
       <main>
-        <div>
-            <h1 id="cityName"></h1>
-            <h2 id="date"></h2>
-        <div>
-          <b>Temperature:</b><span id="currentTemperature"></span> Kelvin
+        <h1>5-Day Forecast</h1>
+        <div class="grid-container">
+          <div>
+            <b>Temperature: </b><span id="dailyTemperature"></span> &#176;F<br>
+            <div><b>Humidity:</b> <span id="dailyHumidity"></span> %</div>
+            <div><span id="dailyIcon"></span></div>
+          </div>
+          <div>
+            <b>Temperature: </b><span id="dailyTemperature"></span> &#176;F<br>
+            <div><b>Humidity:</b> <span id="dailyHumidity"></span> %</div>
+          </div>
+          <div>
+            <b>Temperature: </b><span id="dailyTemperature"></span> &#176;F<br>
+            <div><b>Humidity:</b> <span id="dailyHumidity"></span> %</div>
+          </div>
+          <div>
+            <b>Temperature: </b><span id="dailyTemperature"></span> &#176;F<br>
+            <div><b>Humidity:</b> <span id="dailyHumidity"></span> %</div>
+          </div>
+          <div>
+            <b>Temperature: </b><span id="dailyTemperature"></span> &#176;F<br>
+            <div><b>Humidity:</b> <span id="dailyHumidity"></span> %</div>
+          </div>
         </div>
-        <div>
-          <b>Humidity:</b> <span id="currentHumidity"></span> %
-        </div>
-        <div>
-            <b>Wind Speed:</b> <span id="currentWindSpeed"></span> MPH
-        </div>
-        <div>
-            <b>Wind Speed:</b> <span id="currentUvi"></span> MPH
-        </div>
-        </div>
-        <div id="forecast"></div>
+        
+        
+
 
         
 
